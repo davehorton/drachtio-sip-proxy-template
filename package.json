@@ -1,0 +1,31 @@
+{
+  "name": "drachtio-sip-proxy-template",
+  "version": "0.0.1",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davehorton/drachtio-sip-proxy-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/davehorton/drachtio-sip-proxy-template/issues"
+  },
+  "homepage": "https://github.com/davehorton/drachtio-sip-proxy-template#readme",
+  "author": "Dave Horton",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=production node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jslint": "eslint app.js lib"
+  },
+  "dependencies": {
+    "config": "^3.2.5",
+    "drachtio-mw-digest-auth": "^0.2.2",
+    "drachtio-mw-registration-parser": "^0.1.0",
+    "drachtio-srf": "^4.4.27",
+    "pino": "^5.16.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}

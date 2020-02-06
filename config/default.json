@@ -1,0 +1,21 @@
+{
+  "logging": {
+    "level": "info"
+  },
+  "drachtio": {
+    "host": "127.0.0.1",
+    "port": 9022,
+    "secret": "cymru"
+  },
+  "uas": "sip:172.0.10.0",
+  "domains": {
+    "sip.foobar.com": {
+      "joe": "rwhd983dd",
+      "jane": "q7vfnf"
+    },
+    "acme.com": {
+      "bill": "6asuhjg",
+      "bob": "38dj&jd"
+    }
+  }
+}
