@@ -8,7 +8,7 @@ Edit the [configuration file](config/default.json) as needed, then:
 ```
 npm install
 node app.js
-``
+```
 
 ## Configuration
 
