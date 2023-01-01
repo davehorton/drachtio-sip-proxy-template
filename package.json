@@ -18,7 +18,7 @@
     "jslint": "eslint app.js lib"
   },
   "dependencies": {
-    "config": "^3.2.5",
+    "config": "^3.3.8",
     "drachtio-mw-digest-auth": "^0.2.2",
     "drachtio-mw-registration-parser": "^0.1.0",
     "drachtio-srf": "^4.4.27",
